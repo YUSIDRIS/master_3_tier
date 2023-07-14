@@ -4,9 +4,9 @@ output "vpc_id" {
 output "public_subnet_az1" {
   value = aws_subnet.public_subnet_az1.id
 }
-/*output "public_subnet_az2" {
+output "public_subnet_az2" {
   value = aws_subnet.public_subnet_az2.id
-}*/
+}
 output "private_app_subnet_az1" {
   value = aws_subnet.private_app_subnet_az1.id
 }
@@ -22,3 +22,5 @@ output "data_base_subnet_az2" {
 output "internet_gateway" {
   value = aws_internet_gateway.igw
 }
+#thiss
+
